@@ -1,0 +1,36 @@
+-- 
+-- Create a table 
+-- Table structure for 'teacher_detail'
+-- 
+
+
+
+CREATE TABLE teacher_detail
+( 
+    NAME VARCHAR(20) NOT NULL,
+    ID INT(10) NOT NULL AUTO_INCREMENT,
+    SUBJECT VARCHAR(20),
+    AREA VARCHAR(20),
+    CITY VARCHAR(20),
+    SALARY VARCHAR(20),
+    PRIMARY KEY (ID)
+    
+);    
+    
+
+-- 
+-- now insert data
+-- Dumpind data for table 'teacher_detail'
+-- 
+
+    
+INSERT INTO teacher_detail
+VALUES
+('SALAM', 001, 'BANGLA', 'MIRPUR', 'DHAKA', 100000),
+('KALAM', 002, 'KAFRUL', 'ENGLISH', 'DHAKA', 100000),
+('JAMAL', 003, 'VASHANTACK','MATH', 'DHAKA', 10000),
+('SAFIUL', 004, 'MIRPUR_10','PHICOLOGY', 'DHAKA', 10000),
+('SAIFUL', 005, 'MIRPUR_6','HIGHER_MATH', 'DHAKA', 15000),
+('RUMMON', 006, 'MIRPUR_12', 'BIOLOGY', 'DHAKA', 12000);
+
+
